@@ -8,6 +8,6 @@ with know you should run get_cookies.js first to set that in daily_status(main s
 also maybe you might facing failure in PAGE.WAITFORSELECTOR(); thats mean discord change selector so try to find the right one by inspect page ,in common cases seems like 'role="textbox"',
 after find selector set delay during you type or set massage to avoid act like bots .
 
-use puppeteer
-call discord 'https://discord.com/login'
-schedule it by use 'node-cron' 
+use puppeteer https://pptr.dev ,
+call discord 'https://discord.com/login' , 
+schedule it by use https://www.npmjs.com/package/node-cron ,
